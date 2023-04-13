@@ -10,3 +10,22 @@
   height: 70px;
   width: 70px;
 }
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.score-board {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
